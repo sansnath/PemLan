@@ -10,9 +10,10 @@ public class tempatnya {
         perpus perpustakaan = new perpus();
 
         do {
-            String menu[] = { "\n=====[Perpustakaan]=====", "\n1. Teknologi",
-                    "\n2. Filsafat",
-                    "\n3. Sejarah", "\n4. Agama", "\n5. Psikologi", "\n6. Politik", "\n7. Fiksi",
+            String menu[] = { "\n=====[Perpustakaan]=====", "\n1. Kategori Teknologi",
+                    "\n2. Kategori Filsafat",
+                    "\n3. Kategori Sejarah", "\n4. Kategori Agama", "\n5. Kategori Psikologi", "\n6. Kategori Politik",
+                    "\n7. Kategori Fiksi",
                     "\n8. Tampilkan jumlah buku", "\n9. Keluar" };
 
             for (int i = 0; i < menu.length; i++) {
