@@ -46,15 +46,7 @@ public class tempatnya {
                 System.out.println("Buku dalam kategori Fiksi:");
                 perpus.nampilinbuku(perpustakaan.getFiksi());
             } else if (pilihan == 8) {
-                int jumlah = 0;
-                jumlah += perpus.hitungjumlahbuku(perpustakaan.getTeknologi());
-                jumlah += perpus.hitungjumlahbuku(perpustakaan.getFilsafat());
-                jumlah += perpus.hitungjumlahbuku(perpustakaan.getSejarah());
-                jumlah += perpus.hitungjumlahbuku(perpustakaan.getAgama());
-                jumlah += perpus.hitungjumlahbuku(perpustakaan.getPsikologi());
-                jumlah += perpus.hitungjumlahbuku(perpustakaan.getPolitik());
-                jumlah += perpus.hitungjumlahbuku(perpustakaan.getFiksi());
-                System.out.println("Jumlah total buku: " + jumlah);
+                System.out.println("Jumlah total buku: " + perpustakaan.hasiljumlah());
             } else if (pilihan != 9) {
                 System.out.println("Pilihan tidak valid. Silakan pilih angka 1 hingga 9.");
             }
