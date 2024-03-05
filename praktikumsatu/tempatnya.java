@@ -3,7 +3,7 @@ package praktikumsatu;
 import java.util.*;
 
 public class tempatnya {
-
+    // Samuel Nathanael Sitompul 235150407111034
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int pilihan;
